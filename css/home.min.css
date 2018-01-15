@@ -1,0 +1,429 @@
+.header {
+	height: 100vh;
+	background-image: url(../img/deer.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.navbar-right {
+	height: 100%;
+}
+div.navbar-right > a {
+	height: 100%;
+	width: auto;
+}
+.icon-bar {
+	background-color: #fff;
+}
+.navbar-toggle {
+	padding: 2.5rem;
+	margin-right: 10px;
+}
+.navbar-header {
+	margin-top: 15px;
+}
+.navbar-nav {
+	padding: 2.5rem 2.5rem;
+}
+li > a {
+	color: #fff;
+}
+li > a:hover {
+	color: #dab195 !important;
+}
+.carousel-captions {
+  position: absolute;
+  right: 15%;
+  top: 25vh;
+  left: 15%;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.carousel-captions .btn {
+  text-shadow: none;
+}
+.carousel-captions > h3 {
+	font-size: 3.5rem;
+}
+.carousel-captions > h1 {
+	font-size: 6rem;
+}
+.carousel-captions > p {
+	font-size: 2rem;
+}
+@media (max-width: 768px) {
+	.carousel-captions > h3 {
+		font-size: 2.5rem;
+	}
+	.carousel-captions > h1 {
+		font-size: 4rem;
+	}
+	.carousel-captions > p {
+		font-size: 1.8rem;
+	}
+}
+.btn-white {
+	font-weight: bold;
+	margin: 2rem 1rem;
+	width: auto;
+	background-color: transparent;
+	border: 2px solid #fff;
+	padding: 1.5rem 3.5rem;
+	transition: .5s;
+}
+.btn-white:hover {
+	color: rgb(51, 51, 51);
+	background-color: rgba(255,255,255,0.8);
+}
+.btn-brown {
+	font-weight: bold;
+	margin: 2rem 1rem;
+	background-color: #998675;
+	border: 2px solid #998675;
+	padding: 1.5rem 3.5rem;
+	transition: .5s;
+}
+.btn-brown:hover {
+	color: rgb(51, 51, 51);
+	background-color: rgba(255,255,255,0.8);
+	border: 2px solid rgba(255,255,255,0.8);
+}
+.btn-brown-2 {
+	font-weight: bold;
+	margin: 2rem 1rem;
+	color: #fff;
+	background-color: #998675;
+	border: 2px solid #998675;
+	padding: 1.5rem 3.5rem;
+	transition: .5s;
+}
+.btn-brown-2:hover {
+	color: #fff;
+	background-color: #75685c;
+	border: 2px solid #75685c;
+}
+.white {
+	background-color: #fff;
+	box-shadow: 1px 0px 5px rgba(0,0,0,0.2);
+	transition: .5s;
+}
+/* about class */
+.about {
+	height: auto;
+}
+.padding {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.padding-2 {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.padding-3 {
+	padding-top: 115px;
+	padding-bottom: 115px;
+}
+.title {
+	font-size: 3.5rem;
+}
+.text {
+	padding-top: 2rem;
+	font-size: 1.7rem;
+	color: #8c8c8c;
+}
+.box {
+	padding-top: 10rem;
+	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+}
+.box-default {
+	vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+}
+/* Video */
+.player {
+	height: auto;
+	background-image: url(http://veented.info/waxom/wp-content/uploads/2015/11/desk1.jpg?id=2640);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.project {
+	height: auto;
+}
+.text-white {
+	color: #fff;
+}
+.text-center {
+	text-align: center;
+}
+.text-disable {
+	font-size: 1.7rem;
+	color: #c7b299;
+}
+.text-mute {
+	font-size: 1.5rem;
+	color: #989694;
+	transition: .5s;
+}
+.text-mute-2 {
+	font-size: 1.5rem;
+	color: #989694;
+	transition: .5s;
+}
+.button-group {
+	display: inline;
+}
+.btn-project {
+	color: gray;
+	background-color: #fff;
+	border: 1px solid #ebebeb;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 5px;
+}
+.btn-project:hover {
+	color: #fff;
+	background-color: #998675;
+	border: 1px solid #998675;
+}
+.btn-active {
+	background-color: #998675;
+	border: 1px solid #998675;
+	color: #fff;
+}
+.card {
+	width: 100%;
+	height: 350px;
+	justify-content: center;
+	align-items: center;
+	display: block;
+	background-color: #fff9f9;
+	transition: .5s;
+	margin-bottom: 15px;
+}
+.card-header {
+	height: 280px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.card-header > img {
+	height: 100%;
+	width: auto;
+	transition: .5s;
+	z-index: 1;
+}
+.card-body {
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.card-title {
+	margin: 0;
+	transition: .5s;
+}
+.card-overlay {
+	opacity: 0;
+	transition: .5s;
+	position: absolute;
+	display: inline;
+	background-color: rgba(0,0,0,.5);
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+}
+.card-overlay > i {
+	z-index: 8;
+	color: #fff;
+	padding: 10px;
+	position: relative;
+	top: 50%;
+}
+.card:hover > .card-header > img {
+	transform: scale(1.2);
+}
+.card:hover > .card-header > .card-overlay {
+	opacity: 1;
+}
+.card:hover {
+	background-color: rgba(0,0,0,.8);
+}
+.card:hover > .card-body > .card-title {
+	color: #fff;
+}
+.card:hover > .card-header > .text-mute {
+	color: #c7b299;
+}
+.card:hover > .card-header > .love {
+	color: #c7b299;
+}
+.statistic {
+	height: auto;
+	background-color: #2f2928;
+}
+.love {
+	position: absolute;
+	bottom: 21px;
+	right: 30px;
+	text-align: center;
+	z-index: 10;
+	color: grey;
+}
+.box-center {
+	text-align: center;
+	color: #fff;
+}
+.box-center > h1 {
+	font-size: 5rem;
+	font-weight: bold;
+}
+.box-center > h4 {
+	color: #c7b299 !important;
+}
+.clear {
+	width: 30px;
+	border-bottom: 2px solid #fff;
+	margin: 0 auto;
+}
+.post {
+	height: auto;
+}
+.card-2 {
+	width: 100%;
+	height: 420px;
+	justify-content: center;
+	align-items: center;
+	display: block;
+	background-color: #f7f7f7;
+	transition: .5s;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+.card-header-2 {
+	height: 330px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 5px 5px 0px 0px;
+}
+.card-header-2 > img {
+	height: 100%;
+	width: auto;
+	transition: .5s;
+	z-index: 1;
+}
+.card-body-2 > a {
+	color: #000;
+}
+.card-body-2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.card-title-2 {
+	margin: 0;
+	transition: .5s;
+}
+.card-overlay-2 {
+	opacity: 0;
+	transition: .5s;
+	position: absolute;
+	display: inline;
+	background-color: rgba(0,0,0,.5);
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+}
+.card-overlay-2 > i {
+	z-index: 8;
+	color: #fff;
+	padding: 10px;
+	position: relative;
+	top: 50%;
+}
+.card-2:hover > .card-header-2 > img {
+	transform: scale(1.2);
+}
+.card-2:hover > .card-header-2 > .card-overlay-2 {
+	opacity: 1;
+}
+.card-2:hover {
+	background-color: #9a9a9a;
+}
+.card-2:hover > .card-body-2 > .card-title-2 {
+	color: #fff;
+}
+.card-2:hover > .card-body-2 > a {
+	color: #fff;
+}
+.card-2:hover > .card-body-2 > .text-mute-2 {
+	color: #fff;
+}
+.testimony {
+	background-image: url(http://veented.info/waxom/wp-content/uploads/2015/04/rocks_3.jpg?id=2891);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.testi > center > .testi-header {
+	border: 1px solid #9e9e9e;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.testi > center > .testi-headers {
+	border: 1px solid #9e9e9e;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.testi-headers > img {
+	width: auto;
+	height: 100px;
+}
+.testi-body > h3 {
+	font-size: 2rem;
+}
+.testi > center > .testi-header > span {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 6rem;
+	padding-top: 40px;
+	color: #ff733c;
+}
+.testi > .testi-body {
+	padding-top: 20px;
+}
+.testi > .testi-body > h4 {
+	padding-bottom: 10px;
+	font-size: 1.5rem;
+}
+.form-group > label {
+	font-weight: normal;
+}
+.form-contact {
+	border-radius: 1px !important;
+	height: 40px;
+}
+.form-contact:hover {
+	border: 1px solid gray;
+}
+.form-contact:focus {
+	border: 1px solid gray;
+}
+.slide {
+	height: auto !important;
+}

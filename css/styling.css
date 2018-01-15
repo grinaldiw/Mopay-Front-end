@@ -1,0 +1,299 @@
+/*
+CSS Style By @AnakCode
+Author : AnakCode;
+*/
+.header {
+	height: auto;
+	background-image: url(../img/business-925900_1920.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.black-overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.black-overlay2 {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+}
+.gray-overlay {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(34, 36, 41, 0.9);
+}
+.menu {
+	height: 50px;
+	width: 100%;
+}
+.lefts {
+	float: left;
+	padding-top: 50px;
+	color: #fff;
+}
+.rights {
+	padding-top: 50px;
+	float: right;
+	color: #fff;
+}
+.logo {
+	font-size: 2rem;
+}
+.logo > b {
+	font-weight: bold;
+	color: #ff733c;
+}
+a.nav-toggle {
+	font-size: 1.5rem;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 15px;
+}
+a.nav-toggle:hover {
+	color: #ff0;
+}
+.text-header {
+	position: relative;
+	top: 30%;
+	color: #fff;
+}
+.container > .title {
+	font-weight: bolder;
+	font-size: 7rem;
+	text-align: center;
+}
+.title {
+
+}
+.title > span {
+	color: #f7600e;
+}
+.container > .subtitle {
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 2px;
+	line-height: 3.5rem;
+}
+.welcome-button {
+	text-align: center;
+}
+.button {
+	border-radius: 10px;
+	width: auto;
+	height: auto;
+}
+.btn-transparent {
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	padding: 10px 50px 10px 50px;
+	margin: 0 1.5rem;
+}
+.btn-transparent:hover {
+	border-color: #ff733c;
+	background-color: #ff733c;
+	color: #fff;
+}
+.btn-go {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    margin-top: 18rem;
+}
+/* Feature CSS */
+.padding {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.padding2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.card > center > .card-header {
+	border: 1px solid #9e9e9e;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.card > center > .card-headers {
+	border: 1px solid #9e9e9e;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.card-headers > img {
+	width: auto;
+	height: 100px;
+}
+.card-body > h3 {
+	font-size: 2rem;
+}
+.card > center > .card-header > span {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 6rem;
+	padding-top: 40px;
+	color: #ff733c;
+}
+.card > .card-body {
+	padding-top: 20px;
+}
+.card > .card-body > h4 {
+	padding-bottom: 10px;
+	font-size: 1.5rem;
+}
+/* Newsletter CSS */
+.newsletter {
+	height: auto;
+	background-image: url(../img/technology-792180_1920.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.subscribe {
+	text-align: center;
+}
+.form-controls {
+  	width: 500px;
+  	height: 34px;
+  	padding: 6px 12px;
+  	font-size: 14px;
+  	line-height: 1.42857143;
+  	color: #555;
+  	background-color: #fff;
+  	background-image: none;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+}
+.form-textarea {
+  	font-size: 14px;
+  	line-height: 1.42857143;
+  	color: #555;
+  	padding: 6px 12px;
+  	background-color: #fff;
+  	background-image: none;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+}
+.btn-orange {
+	width: 100%;
+	background-color: #f7600e;
+	color: #fff;
+	border: 1px solid #f7600e;
+}
+.btn-orange:hover {
+	color: #fff;
+	background-color: transparent;
+}
+h3 > span {
+	color: #f7600e;
+}
+.card-work {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 30px;
+	position: relative;
+}
+.card-work > img {
+	border-radius: 10px 10px 10px 10px;
+	width: 100%;
+	height: 100%;
+}
+.overlay-orange {
+	transform: translateY(100%);
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgba(247, 96, 14,0.8);
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	transition: .5s;
+}
+.card-work:hover .overlay-orange {
+	transform: translateY(0%);
+}
+.orange-content {
+	padding-top: 15%;
+}
+.orange-content > h5 {
+	font-weight: bold;
+}
+.btn-white {
+	background-color: #fff;
+	color: #f7600e;
+	font-size: 1rem;
+	padding: 10px 30px;
+}
+.testimony {
+	background-image: url(../img/woman-690036.jpg);
+	background-position: center;
+	background-size: cover;
+	height: auto;
+}
+.cards {
+	width: 80%;
+	height: 500px;
+	padding: 0;
+	justify-content: center;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+.cards > .card-img {
+	border-radius: 5px;
+	overflow: hidden;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cards > .card-img > img {
+	width: auto;
+	height: 100%;
+	filter: grayscale(100%);
+}
+.card-body > h4 {
+	padding-top: 20px;
+}
+.cards:hover .card-img {
+	height: 290px;
+	filter: none;
+	border-bottom: 5px solid #f7600e;
+}
+.cards:hover .card-img img {
+	filter: none;
+}
+.contact {
+	background-image: url(../img/city-937541.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: auto;
+}
+textarea {
+	overflow: hidden;
+	width: 1086px;
+	height: 200px;
+}
+.footer {
+	background-color: #40414c;
+}
